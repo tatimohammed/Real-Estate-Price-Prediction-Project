@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(rsc/bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.logo{
+    color: rgba(0, 255, 128, 0.8);
+    font-size: 50px;
+    margin-top: 630px;
+    margin-left: 10px;
+    display: flex;
+}
+.box{
+    position: relative;
+    width: 500px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, .45);
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    border: 3px solid green;
+    border-radius: 30px;
+}
+hr{
+    border: 1px solid green;
+    margin-top: 15px;
+    background-color: green;
+}
+.box h1{
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+.box h1 .dev{
+    font-size: 17px;
+    background-color: green;
+    border-radius: 15px 0 0 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.box h1 .tati{
+    font-size: 17px;
+    background-color: white;
+    border-radius: 0 15px 15px 0;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+
+}
+.box h2{
+    font-size: 20px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.box .sqft{
+    border-radius: 30px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid green;
+    color: green;
+}
+.result{
+    color: white;
+}
+.wave{
+    position: relative;
+    color: white;
+    width: 100%;
+    background-color: rgba(0, 128, 0, .6);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 35px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.wave span{
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.05s * var(--i));
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-15px);
+    }
+    40%, 100%{
+        transform: translateY(0px);
+    }
+}
+
+.switch {
+	display: flex;
+    justify-content: center;
+    text-align: center;
+	overflow: hidden;
+}
+
+.switch input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+}
+
+.switch label {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: rgba(0, 128, 0, 1);
+	font-size: 20px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 16px;
+	margin-right: -1px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+	transition: all 0.1s ease-in-out;
+}
+
+.switch label:hover {
+	cursor: pointer;
+}
+
+.switch input:checked + label {
+	background-color: #a5dc86;
+	box-shadow: none;
+}
+
+.switch label:first-of-type {
+	border-radius: 4px 0 0 4px;
+}
+
+.switch label:last-of-type {
+	border-radius: 0 4px 4px 0;
+}
+.select-location{
+    padding-top: 10px;
+    width: 200px;
+    border-radius: 30px;
+    height: 45px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border: 3px solid green;
+    color: green;
+}
+.select-location option{
+    font-size: 20px;
+    color: black;
+}
+.action{
+    padding-top: 35px;
+}
+.action .btn{
+    font-size: 20px;
+    background-color: green;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 30px;
+    border: 3px solid white;
+    color: white;
+}
+.action .btn:hover{
+    background-color: white;
+    border: 3px solid green;
+    color: green;
+}

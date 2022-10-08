@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <script src="app.js"></script>
+        <title>House Price Prediction Application | Data project</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="wave">
+            <span style="--i:1;">H</span>
+            <span style="--i:2;">o</span>
+            <span style="--i:3;">u</span>
+            <span style="--i:4;">s</span>
+            <span style="--i:5;">e</span>
+            <span style="--i:6;"> </span>
+            <span style="--i:7;">P</span>
+            <span style="--i:8;">r</span>
+            <span style="--i:9;">i</span>
+            <span style="--i:10;">c</span>
+            <span style="--i:11;">e</span>
+            <span style="--i:12;"> </span>
+            <span style="--i:13;">P</span>
+            <span style="--i:14;">r</span>
+            <span style="--i:15;">e</span>
+            <span style="--i:16;">d</span>
+            <span style="--i:17;">i</span>
+            <span style="--i:18;">c</span>
+            <span style="--i:19;">t</span>
+            <span style="--i:20;">i</span>
+            <span style="--i:21;">o</span>
+            <span style="--i:22;">n</span>
+            <span style="--i:23;"> </span>
+            <span style="--i:24;">A</span>
+            <span style="--i:25;">p</span>
+            <span style="--i:26;">p</span>
+            <span style="--i:27;">l</span>
+            <span style="--i:28;">i</span>
+            <span style="--i:29;">c</span>
+            <span style="--i:30;">a</span>
+            <span style="--i:31;">t</span>
+            <span style="--i:32;">i</span>
+            <span style="--i:33;">o</span>
+            <span style="--i:34;">n</span>
+        </div>
+        <div class="box">
+            <h1><span class="dev">Developed by </span><span class="tati"> TATI</span></h1>
+            <hr></hr>
+            <h2>Area (Square Feet)</h2>
+            <input class="sqft" type="email" name="sqft" id="sqft">
+            <h2>BHK</h2>
+            <div class="switch">
+                <input type="radio" name="bhk" id="bhk1" value="1">
+                <label for="bhk1">1</label>
+                <input type="radio" name="bhk" id="bhk2" value="2">
+                <label for="bhk2">2</label>
+                <input type="radio" name="bhk" id="bhk3" value="3">
+                <label for="bhk3">3</label>
+                <input type="radio" name="bhk" id="bhk4" value="4">
+                <label for="bhk4">4</label>
+                <input type="radio" name="bhk" id="bhk5" value="5">
+                <label for="bhk5">5</label>
+            </div>
+            <h2>Bath</h2>
+            <div class="switch">
+                <input type="radio" name="bath" id="bath1" value="1">
+                <label for="bath1">1</label>
+                <input type="radio" name="bath" id="bath2" value="2">
+                <label for="bath2">2</label>
+                <input type="radio" name="bath" id="bath3" value="3">
+                <label for="bath3">3</label>
+                <input type="radio" name="bath" id="bath4" value="4">
+                <label for="bath4">4</label>
+                <input type="radio" name="bath" id="bath5" value="5">
+                <label for="bath5">5</label>
+            </div>
+            <h2>Location</h2>
+            <select class="select-location" name="" id="select-location">
+                <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+            </select>
+            <div class="action">
+                <button class="btn" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+                <div class="result" id="result"><h2></h2></div>
+            </div>
+        </div>
+        <div class="logo">
+            <i class="fa-solid fa-house-circle-check"></i>
+        </div>
+    </body>
+</html>
