@@ -11,9 +11,11 @@ This is a Machine Learning & Data Science Project that we will try to build a pr
   - Pandas
   - Numpy
   - Pickle
+  - Postman
   - Json
   - Postman
   - JavaScript
+  - JQuery
   - HTML
   - CSS
   
