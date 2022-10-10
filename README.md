@@ -1,5 +1,5 @@
 # Real-Estate-Price-Prediction-Project
-This is a Machine Learning & Data Science Project that we will try to build a predicting model to find the estimate price for a house by entring the related data about this particular house. Of course we will have to clean the data & make a simple EDA to undestand it more.
+This is a Machine Learning & Data Science Project that we will try to build a predicting model to find the estimate price for a house by entering the related data about this particular house. Of course, we will have to clean the data & make a simple EDA to understand it more.
 
 + Tools used:
   - Python
