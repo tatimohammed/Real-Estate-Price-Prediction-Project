@@ -8,11 +8,11 @@ import json
 app = Flask(__name__)
 
 # Opening the columns JSON file and the PICKLE file
-with open('./rsc/columns.json', 'r') as f:
+with open('./model/columns.json', 'r') as f:
     data_cols = json.load(f)['data_cols']
     _location = data_cols[3:]
 
-with open('./rsc/Real Estate Price Prediction.pickle', 'rb') as f:
+with open('./model/Real Estate Price Prediction.pickle', 'rb') as f:
     _model = pickle.load(f)
 
 
