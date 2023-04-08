@@ -4,7 +4,25 @@
 + This is the user interface of our web app to predict the estimate price for a house.
 # Project Description
 This is a Machine Learning & Data Science Project that we will try to build a predicting model to find the estimate price for a house by entering the related data about this particular house. Of course, we will have to clean the data & make a simple EDA to understand it more.
-
+``` bash
+.
+├── client
+│   ├── app.css
+│   ├── app.html
+│   ├── app.js
+│   └── rsc
+│       └── bg.jpg
+├── model
+│   ├── columns.json
+│   ├── Real Estate Price Prediction.pickle
+│   └── Real Estate Price Prediction Project.ipynb
+├── README.md
+└── server
+    ├── rsc
+    │   ├── columns.json
+    │   └── Real Estate Price Prediction.pickle
+    └── server.py
+```
 # Tools used:
 + Languages:
   - Python
